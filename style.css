@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.current {
+    border-bottom: 2px solid #83c5be;
+    color: #83c5be !important;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #161616;
+}
+
+.showcase {
+    background: url('./img/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    background: #83c5be;
+    color: #161616;
+    margin: 1rem 0;
+    text-align: center;
+    padding: 0.4rem 2rem;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #006d77;
+    color: #edf6f9;
+}
+
+#header {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 1rem 4rem;
+    width: 100%;
+}
+
+#header .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+#main-nav ul {
+    display: flex;
+}
+
+#main-nav a {
+    color: #161616;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#main-nav a:hover {
+    color: #83c5be;
+    border-bottom: 2px solid #83c5be;
+}
+
+/* card */
+.container {
+    background: #006d77;
+    border-radius: 8px;
+    margin: 8rem auto;
+    max-width: 960px;
+    /* height: 400px; */
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 2rem;
+}
+
+.card-content {
+    color: #edf6f9;
+}
+
+
+.info-message h1 {
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.info-message p {
+    width: 400px;
+    line-height: 1.4;
+    padding-bottom: 1rem;
+}
+
+.info-contact {
+    padding: 1rem 0;
+}
+
+.info {
+    display: flex;
+    padding: 0.5rem 0;
+}
+
+.info i {
+    padding-right: 1rem;
+}
+
+/* second card */
+.card-form {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.card-form form {
+    padding: 1rem;
+}
+
+.card-form label {
+    display: block;
+    font-size: 0.9rem;
+}
+
+.card-form input,
+.card-form textarea {
+    margin: 0.5rem 0;
+    width: 100%;
+    padding: 0.4rem 0;
+    border-radius: 5px;
+    border: 2px solid #83c5be;
+}
+
+.card-form input[type="text"],
+.card-form input[type="email"],
+.card-form textarea {
+    padding-left: 0.5rem;
+}
+
+.card-form input:focus,
+.card-form textarea:focus {
+    outline: none !important;
+    border-color: #006d77;
+}
+
+.social-media {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.social-media i {
+    margin-right: 1rem;
+}
+
+.social-media i:hover {
+    color: #83c5be;
+}
